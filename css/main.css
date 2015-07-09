@@ -10,6 +10,7 @@ body {
   max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
+  text-align: center;
 }
 
 a {
@@ -50,5 +51,62 @@ header h1 {
 header h2 {
 	font-size: 1.2rem;
 	color: #343A39;
+}
+
+/*********************************
+LIST SECTION
+**********************************/
+
+
+#add-items {
+  background-color: #FFF;
+  border: 2px solid #343A39;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  font-size: 12pt;
+  line-height: 24pt;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  text-align: center;
+  width: 400px;
+}
+
+.plus-btn {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Open Sans' sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  background: #FC8563;
+  padding: 3px 25px 5px 25px;
+  text-decoration: none;
+}
+
+.plus-btn:hover {
+  background: #FEA086;
+  text-decoration: none;
+}
+
+.items {
+  background-color: #FFF;
+  border: 2px solid #343A39;
+  border-radius: 10px;
+  color: #343A39;
+  display: block;
+  font-size: 12pt;
+  line-height: 24pt;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  text-align: left;
+  width: 465px;
+  padding-left: 5px;
+}
+
+.checked-off {
+	text-decoration: line-through;
 }
 

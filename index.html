@@ -7,7 +7,6 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-	
 </head>
 <body>
 	<header>
@@ -16,16 +15,11 @@
 		<h2>By Greg Lindahl</h2>
 	</header>
 	<div id="wrapper">
-		<input id="add-items" type="text" name="add-items" autocomplete="off" placeholder="+ Add items">
-		<button class="plus-btn">+</button>
-		<section>
-			<p class="items"><i class="fa fa-square-o"></i>     Milk</p>
-			<p class="items checked-off"><i class="fa fa-check-square-o"></i>     Cheese</span></p>
-			<p class="items"><i class="fa fa-square-o"></i>     Meat</p>
-		</section>
+		<input id="add-item" type="text" name="add-items" autocomplete="off" placeholder="+ Add items">
+		<button type="submit" id="add" class="plus-btn">+</button>
+		<div id="list"></div>
 	</div>
-	<footer>
-	</footer>
+	<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

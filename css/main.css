@@ -90,6 +90,15 @@ LIST SECTION
   text-decoration: none;
 }
 
+#list {
+  background-color: #FFF;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 465px;
+}
+
 .items {
   background-color: #FFF;
   border: 2px solid #343A39;
@@ -104,17 +113,29 @@ LIST SECTION
   text-align: left;
   width: 465px;
   padding-left: 5px;
+  cursor: pointer;
 }
 
-.checked-off {
+.box:before {
+	content: "\f096";
+	font-family: FontAwesome;
+}
+
+.strike {
 	text-decoration: line-through;
 }
 
-footer {
-	width: 100%;
-	margin-top: 120px;
-	background-color: #21B6AE;
-	height: 100px;
-	clear: both;
+.checked:before {
+	content: "\f046";
+	font-family: FontAwesome;
 }
+
+.delete:before {
+	content: "\f014";
+	font-family: FontAwesome;
+	float: right;
+	padding-right: 10px;
+}
+
+
 
